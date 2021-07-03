@@ -1,0 +1,136 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+body {
+  background: #eef8eb;
+  padding: 30px;
+}
+.container {
+  width: 45rem;
+}
+.container > .text-center {
+  background: white;
+  box-shadow: 0px 0px 1px 0px black;
+  border-top: 4px solid #00800d;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom: 4px solid #00800d;
+  padding: 2px;
+}
+.msg {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.success {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40rem;
+}
+.card {
+  box-shadow: 0px 0px 2px 1px #00000047;
+  border-radius: 10px;
+}
+.card-title {
+  font-size: 50px;
+  color: green;
+}
+.card-text {
+  font-size: 30px;
+}
+.bi {
+  font-size: 80px;
+}
+.btn-success,
+.btn-success:hover,
+.btn-success:active {
+  background-color: #009306 !important;
+  border-color: #187100 !important;
+}
+.details > .form-group {
+  position: relative;
+}
+.dp-img {
+  padding: 20px;
+  border: 1px solid #2a8000;
+  height: auto;
+  width: auto;
+  position: absolute;
+  top: 30%;
+  right: 1rem;
+  transform: translateY(-50%);
+}
+.dp-img > img {
+  max-height: 170px;
+  max-width: 170px;
+  /* position: absolute;
+  top: 30%;
+  right: 1rem; 
+  transform: translateY(-50%); */
+}
+.dp-img > p {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dp {
+  height: 110px;
+  position: relative;
+}
+.dp > input {
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+}
+.dp > label {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+}
+.dp > .img {
+  max-height: 90px;
+  width: auto;
+  padding: 3px;
+  background: #f6f0ff;
+  border: 2px solid #adffb8;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+}
+.img > img {
+  max-height: 80px;
+  max-width: 90px;
+}
+form {
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.form-control {
+  border-bottom: 1px solid #048000 !important;
+}
+.form-group {
+  background: white;
+  /* box-shadow: 0px 0px 3px 0px black; */
+  border-bottom: solid 2px green;
+  margin-bottom: 0;
+  padding: 20px;
+}
+.link-text {
+  font-size: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.link-text:hover > a {
+  text-decoration: none;
+}
+.link-text-2 {
+  cursor: pointer;
+  color: blue;
+}
